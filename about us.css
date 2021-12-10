@@ -1,1 +1,52 @@
 @charset "utf-8";
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    background-color: #707070;
+}
+header {
+    background-color: #7187da;
+}
+header nav ul{
+    margin-left: 28%;
+    height: 92px;
+}
+header nav ul li {
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    width: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+header nav ul li a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid white;
+    padding: 5px;
+}
+header nav ul li a:hover{
+    color: darkblue;
+}
+#logo{
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    width: 249px;
+}
+nav{
+    line-height: 88.5px;
+} 
+footer {
+    background-color: #7187da;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
