@@ -40,4 +40,48 @@ header nav ul li a:hover{
 }
 nav{
     line-height: 88.5px;
+} 
+footer {
+    background-color: #7187da;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+#slideshow {
+    width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.slides {
+    display:none;
+}
+#text {
+    font-size: 14px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 16px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+@keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+.slide-img {
+    width: 1000px;
+    height: 600px;
 }
