@@ -62,10 +62,11 @@ footer {
     font-size: 14px;
     padding: 8px 12px;
     position: absolute;
-    bottom: 16px;
-    width: 100%;
+    bottom: 14px;
+    width: 976px;
     text-align: center;
     color: #ffffff;
+    background-color: rgba(51,51,51,0.6);
 }
 .fade {
     -webkit-animation-name: fade;
