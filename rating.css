@@ -66,3 +66,13 @@ td {
     color: white;
     text-align: center;
 }
+#top tr td:nth-child(3), #incoming tr td:nth-child(3) {
+    border: 0px solid white;
+    background-color: #707070;
+    margin: 0;
+    padding: 0;
+}
+#top tr:nth-child(2) td:nth-child(3), #incoming tr:nth-child(2) td:nth-child(3) {
+    border: 2px solid #7c7c7c;
+    background-color: #7187da;
+}
