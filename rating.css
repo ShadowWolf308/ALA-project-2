@@ -50,3 +50,19 @@ footer {
     color: white;
     text-align: center;
 }
+table {
+    background-color: #707070;
+}
+th {
+    border: 2px solid #7c7c7c;
+    text-align: center;
+    margin: 5px;
+}
+td {
+    border: 2px solid #7c7c7c;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: #7187da;
+    color: white;
+    text-align: center;
+}
