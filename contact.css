@@ -50,3 +50,20 @@ footer {
     color: white;
     text-align: center;
 }
+tr td:nth-child(1){
+    text-align: right;
+}
+table input, table textarea{
+    width: 400px;
+}
+table {
+    background-color: #707070;
+}
+th, td:nth-child(1) {
+    border: 1px solid #7c7c7c;
+    padding: 0;
+    margin: 0;
+}
+tr td:nth-child(1) {
+    background-color: #7187da;
+}
