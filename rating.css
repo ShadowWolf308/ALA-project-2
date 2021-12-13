@@ -43,7 +43,7 @@ nav{
 } 
 footer {
     background-color: #7187da;
-    position: absolute;
+    position: relative;
     bottom: 0;
     height: 40px;
     width: 100%;
@@ -75,4 +75,9 @@ td {
 #top tr:nth-child(2) td:nth-child(3), #incoming tr:nth-child(2) td:nth-child(3) {
     border: 2px solid #7c7c7c;
     background-color: #7187da;
+}
+img {
+    width: 80px;
+    height: 60px;
+    border: 2px solid #7c7c7c;
 }
