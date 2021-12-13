@@ -58,12 +58,26 @@ table input, table textarea{
 }
 table {
     background-color: #707070;
+    position: relative;
+    top: 100px;
+}
+th {
+    font-size: 40px;
 }
 th, td:nth-child(1) {
-    border: 1px solid #7c7c7c;
+    border: 2px solid #7c7c7c;
     padding: 0;
     margin: 0;
 }
 tr td:nth-child(1) {
     background-color: #7187da;
+}
+td {
+    position: relative;
+    top: 8px;
+}
+#submit {
+    position: relative;
+    top: 105px;
+    left: 62%;
 }
