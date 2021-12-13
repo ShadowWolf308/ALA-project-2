@@ -81,3 +81,6 @@ img {
     height: 60px;
     border: 2px solid #7c7c7c;
 }
+.title {
+    font-size: 40px;
+}
