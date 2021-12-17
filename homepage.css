@@ -86,3 +86,23 @@ footer {
     width: 1000px;
     height: 600px;
 }
+#minecraftAd {
+    position: absolute;
+    top: 92px;
+    width: 268px;
+    height: 600px;
+}
+#gtaAd {
+    position: absolute;
+    top: 92px;
+    left: 1268px;
+    height: 600px;
+    width: 268px;
+} 
+#popup {
+    position: absolute;
+    top: 80px;
+}
+#valheimAd {
+    height: 600px;
+}
