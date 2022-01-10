@@ -27,6 +27,8 @@
         <link rel="stylesheet" type="text/css" href="contact.css">
     </head>
     <body>
+        <a href="https://store.steampowered.com/app/892970/Valheim/" target="_blank"><img src="./images/Valheim ad.png" alt="Valheim Ad" id="ad1"></a>
+        <a href="https://www.ea.com/games/apex-legends" target="_blank"><img src="./images/apex ad.png" alt="Apex Legends Ad" id="ad2"></a>
         <!--body data (text enzo)-->
         <img id="logo" src="./images/gamestars 2.png" alt="logo">
         <header>
@@ -58,7 +60,14 @@
                 </tr>
                 <tr>
                     <td>Onderwerp:</td>
-                    <td><input type="" name="onderwerp" required></td>
+                    <td>
+                        <select name="onderwerp" id="onderwerp">
+                            <option value="vraag">Ik heb een vraag</option>
+                            <option value="opmerking">Ik heb een opmerking</option>
+                            <option value="game">Ik wil een game aanraden</option>
+                            <option value="compliment">Ik wil een compliment geven</option>
+                        </select>
+                    </td>
                 </tr>
                 <tr>
                     <td>Bericht:</td>

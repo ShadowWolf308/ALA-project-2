@@ -53,8 +53,15 @@ footer {
 tr td:nth-child(1){
     text-align: right;
 }
-table input, table textarea{
+table input{
     width: 400px;
+}
+table textarea {
+    width: 402px;
+    height: 100px;
+}
+table select {
+    width: 404px;
 }
 table {
     background-color: #707070;
@@ -79,5 +86,20 @@ td {
 #submit {
     position: relative;
     top: 105px;
-    left: 62%;
+    left: 62.2%;
+}
+#ad1 {
+    height: 600px;
+    width: 280px;
+    position: absolute;
+    top: 92px;
+    cursor: pointer;
+}
+#ad2 {
+    height: 600px;
+    width: 280px;
+    position: absolute;
+    top: 92px;
+    right: 0;
+    cursor: pointer;
 }
