@@ -9,7 +9,7 @@ body {
 header {
     background-color: #7187da;
 }
-header nav ul{
+header nav ul {
     margin-left: 28%;
     height: 92px;
 }
@@ -21,7 +21,7 @@ header nav ul li {
     padding-left: 2%;
     padding-right: 2%;
 }
-header nav ul li a{
+header nav ul li a {
     color: white;
     font-size: 30px;
     text-decoration: none;
@@ -29,16 +29,16 @@ header nav ul li a{
     border: 1px solid white;
     padding: 5px;
 }
-header nav ul li a:hover{
+header nav ul li a:hover {
     color: darkblue;
 }
-#logo{
+#logo {
     position: absolute;
     top: 1%;
     left: 2%;
     width: 249px;
 }
-nav{
+nav {
     line-height: 88.5px;
 } 
 footer {
