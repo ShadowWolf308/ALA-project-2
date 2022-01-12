@@ -51,17 +51,21 @@ footer {
     text-align: center;
 }
 tr td:nth-child(1){
+    font-size: 20px;
     text-align: right;
 }
 table input{
-    width: 400px;
+    font-size: 18px;
+    width: 520px;
 }
 table textarea {
-    width: 402px;
-    height: 100px;
+    font-size: 18px;
+    width: 522px;
+    height: 150px;
 }
 table select {
-    width: 404px;
+    font-size: 18px;
+    width: 524px;
 }
 table {
     background-color: #707070;
@@ -69,7 +73,7 @@ table {
     top: 100px;
 }
 th {
-    font-size: 40px;
+    font-size: 45px;
 }
 th, td:nth-child(1) {
     border: 2px solid #7c7c7c;
@@ -84,9 +88,10 @@ td {
     top: 8px;
 }
 #submit {
+    font-size: 20px;
     position: relative;
     top: 105px;
-    left: 62.2%;
+    left: 65%;
 }
 #ad1 {
     height: 600px;
