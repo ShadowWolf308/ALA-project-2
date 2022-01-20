@@ -51,9 +51,10 @@ footer {
     text-align: center;
 }
 #slideshow {
-    width: 1000px;
-    position: relative;
-    margin: auto;
+    position: absolute;
+    top: 18vh;
+    left: 20%;
+    height: auto;
 }
 .slides {
     display:none;
@@ -63,7 +64,7 @@ footer {
     padding: 8px 12px;
     position: absolute;
     bottom: 14px;
-    width: 976px;
+    width: 97.58%;
     text-align: center;
     color: #ffffff;
     background-color: rgba(51,51,51,0.6);
@@ -83,21 +84,20 @@ footer {
     to {opacity: 1;}
 }
 .slide-img {
-    width: 1000px;
-    height: 600px;
+    width: 60vw;
 }
 #minecraftAd {
     position: absolute;
     top: 92px;
-    width: 268px;
-    height: 600px;
+    width: 20%;
+    height: 87%;
 }
 #gtaAd {
     position: absolute;
     top: 92px;
-    left: 1268px;
-    height: 600px;
-    width: 268px;
+    right: 0;
+    height: 87%;
+    width: 20%;
 } 
 #popup {
     position: absolute;
