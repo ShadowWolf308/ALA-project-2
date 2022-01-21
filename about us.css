@@ -50,3 +50,7 @@ footer {
     color: white;
     text-align: center;
 }
+iframe {
+    width: 100vw;
+    height: 86vh;
+}
